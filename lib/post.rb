@@ -9,6 +9,10 @@ class Post
     @title
   end
 
+  def self.all 
+    @@all
+  end
+
   def author=(author)
     @author=author
   end
