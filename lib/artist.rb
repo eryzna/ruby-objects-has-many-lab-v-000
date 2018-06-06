@@ -18,6 +18,9 @@ class Artist
     @songs<<song
   end
 
+  def self.song_count
+    @songs.count
+  end
 
   def songs
     @songs
